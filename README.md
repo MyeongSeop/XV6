@@ -2,24 +2,24 @@
 XV6 OS Project 
 
 
-##Project 2
+## Project 2
 
 - Make CFS CPU scheduler for XV6 OS. 
 - Implement virtual runtime and actual runtime to calulate the time slice of running process.
 - Implement system call ps, getpid, getpid. 'ps' system call show current running, sleeping, zombie process and its ID. 'getpid' system call returns current running process's ID. 'setpid' system call set given processor ID to given input value by system call.
 
 
-##Project 3
+## Project 3
 - Implement mmap, munmap function in XV6 OS.
 - Implement Page Falut Hanlder for XV6. 
 - To refer to the mmap and munmap function : https://man7.org/linux/man-pages/man2/mmap.2.html
 
 
-##Prject 4
+## Project 4
 - Implement page swapping (page replacement) in XV6 OS.
 - Manages swappable pages with LRU algorithm. (Clock algorithm)
 
-##Project 5
+## Project 5
 - Implement file extension in XV6 OS. 
 - Used double indirect block to make file extension.
 - Implement block group in XV6 OS.
